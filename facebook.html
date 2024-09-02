@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Social Network</title>
+    <link rel="stylesheet" href="facebook.csss">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <h1>My Social Network</h1>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Profile</a></li>
+                <li><a href="#">Messages</a></li>
+                <li><a href="#">Friends</a></li>
+                <li><a href="#">Notifications</a></li>
+            </ul>
+        </nav>
+        <div class="search-bar">
+            <input type="text" placeholder="Search...">
+            <button>Search</button>
+        </div>
+    </header>
+
+    <div class="container">
+        <aside class="sidebar">
+            <h2>Menu</h2>
+            <ul>
+                <li><a href="#">News Feed</a></li>
+                <li><a href="#">Events</a></li>
+                <li><a href="#">Groups</a></li>
+                <li><a href="#">Settings</a></li>
+            </ul>
+        </aside>
+
+        <main class="content">
+            <div class="post-box">
+                <textarea placeholder="What's on your mind?"></textarea>
+                <button>Post</button>
+            </div>
+
+            <div class="post">
+                <div class="post-header">
+                    <img src="user.jpg" alt="User Profile" class="user-img">
+                    <div class="user-details">
+                        <h3>John Doe</h3>
+                        <span>5 mins ago</span>
+                    </div>
+                </div>
+                <div class="post-content">
+                    <p>This is a sample post content. It could be anything like text, image, or video.</p>
+                </div>
+                <div class="post-actions">
+                    <button>Like</button>
+                    <button>Comment</button>
+                    <button>Share</button>
+                </div>
+            </div>
+            <!-- More posts can go here -->
+        </main>
+
+        <aside class="friends-list">
+            <h2>Friends</h2>
+            <ul>
+                <li><a href="#">Friend 1</a></li>
+                <li><a href="#">Friend 2</a></li>
+                <li><a href="#">Friend 3</a></li>
+            </ul>
+        </aside>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 My Social Network</p>
+    </footer>
+</body>
+</html>
